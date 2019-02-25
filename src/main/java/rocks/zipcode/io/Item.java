@@ -5,14 +5,14 @@ package rocks.zipcode.io;
  */
 public class Item {
 
-    private long id;
+    private Long id;
     private String name;
-    private double price;
+    private Double price;
 
     public Item() {
-        id = 1l;
-        name = "myname";
-        price = 1.0d;
+        id = 0l;
+        name = "";
+        price = 0.01d;
     }
 
     public Item(Long id, String name, Double price) {
